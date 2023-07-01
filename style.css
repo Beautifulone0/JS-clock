@@ -33,9 +33,10 @@ body {
   transition: all 0.05s ease;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+ .minutes {
+  background: hsl(187, 18%, 19%);
+}
 
-@media (max-width: 575.98px) {
-  .clock {
-   margin: 40rem auto; 
-  }
-} 
+.seconds {
+  background:hsl(241, 76%, 77%);
+}
